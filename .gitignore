@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# Private generated artifacts
+# Uncomment if you don't want to publish example outputs
+# artifacts/
