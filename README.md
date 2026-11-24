@@ -74,8 +74,7 @@ Copy the skills into your project:
 bash
 mkdir -p .agents
 
-cp -r ../startup-builder/.agents/skills .agents/
-
+cp -r /path/to/startup-builder/.agents/skills .agents/
 
 Alternatively, copy the skills using the full path to your cloned repository.
 
