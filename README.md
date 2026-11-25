@@ -56,43 +56,34 @@ market-researcher	Researches markets and competitors
 product-spec	Creates product requirements
 mvp-planner	Creates development roadmaps
 🚀 Installation
-
-Clone the repository:
-
+1. Clone the repository
 bash
 git clone https://github.com/Shubh484/startup-builder.git
 
-
-Navigate to your existing project:
-
+2. Navigate to your existing project
 bash
 cd your-project
 
-
-Copy the skills into your project:
-
+3. Copy the skills into your project
 bash
 mkdir -p .agents
-
 cp -r /path/to/startup-builder/.agents/skills .agents/
+
 
 Alternatively, copy the skills using the full path to your cloned repository.
 
-Open the project using Codex and check available skills:
-
+4. Open the project using Codex and check available skills
 text
 /skills
 
-
-Invoke the complete workflow:
-
+5. Invoke the complete workflow
 text
 $startup-builder
 
+
 I want to build a startup that solves a real customer problem.
 
-Help me refine the idea, research the market, define the product,
-and create an MVP development roadmap.
+Help me refine the idea, research the market, define the product, and create an MVP development roadmap.
 
 📁 Project Structure
 text
