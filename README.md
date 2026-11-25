@@ -1,4 +1,4 @@
-🚀 Startup Builder
+# 🚀 Startup Builder
 
 An AI-powered multi-skill toolkit that transforms startup ideas into actionable product and development plans.
 
@@ -6,17 +6,20 @@ Startup Builder is an open-source collection of AI Agent Skills designed to help
 
 Instead of relying on one giant prompt, Startup Builder uses a master orchestrator and four specialist skills.
 
-✨ Features
-💡 Idea refinement and assumption validation
-🔎 Evidence-based market and competitor research
-📋 Product Requirements Document (PRD) generation
-🛠️ MVP planning and engineering task breakdown
-🔗 Multi-skill orchestration
-📁 Markdown artifact generation
-✅ Automated artifact evaluation
-📊 Execution tracking and quality gates
-🧠 Architecture
-text
+## ✨ Features
+
+- 💡 Idea refinement and assumption validation
+- 🔎 Evidence-based market and competitor research
+- 📋 Product Requirements Document (PRD) generation
+- 🛠️ MVP planning and engineering task breakdown
+- 🔗 Multi-skill orchestration
+- 📁 Markdown artifact generation
+- ✅ Automated artifact evaluation
+- 📊 Execution tracking and quality gates
+
+## 🧠 Architecture
+
+```text
                   USER IDEA
                       |
                       v
@@ -47,46 +50,61 @@ text
                 |
                 v
         STARTUP BLUEPRINT
+```
 
-📦 Included Skills
-Skill	Responsibility
-startup-builder	Coordinates the complete workflow
-idea-griller	Refines and challenges startup ideas
-market-researcher	Researches markets and competitors
-product-spec	Creates product requirements
-mvp-planner	Creates development roadmaps
-🚀 Installation
-1. Clone the repository
-bash
+## 📦 Included Skills
+
+| Skill | Responsibility |
+|---|---|
+| startup-builder | Coordinates the complete workflow |
+| idea-griller | Refines and challenges startup ideas |
+| market-researcher | Researches markets and competitors |
+| product-spec | Creates product requirements |
+| mvp-planner | Creates development roadmaps |
+
+## 🚀 Installation
+
+**Clone the repository:**
+
+```bash
 git clone https://github.com/Shubh484/startup-builder.git
+```
 
-2. Navigate to your existing project
-bash
+**Navigate to your existing project:**
+
+```bash
 cd your-project
+```
 
-3. Copy the skills into your project
-bash
+**Copy the skills into your project:**
+
+```bash
 mkdir -p .agents
 cp -r /path/to/startup-builder/.agents/skills .agents/
-
+```
 
 Alternatively, copy the skills using the full path to your cloned repository.
 
-4. Open the project using Codex and check available skills
-text
+**Open the project using Codex and check available skills:**
+
+```text
 /skills
+```
 
-5. Invoke the complete workflow
-text
+**Invoke the complete workflow:**
+
+```text
 $startup-builder
-
+```
 
 I want to build a startup that solves a real customer problem.
 
-Help me refine the idea, research the market, define the product, and create an MVP development roadmap.
+Help me refine the idea, research the market, define the product,
+and create an MVP development roadmap.
 
-📁 Project Structure
-text
+## 📁 Project Structure
+
+```text
 startup-builder/
 │
 ├── .agents/
@@ -108,31 +126,34 @@ startup-builder/
 │
 ├── README.md
 └── LICENSE
+```
 
-🧪 Testing
+## 🧪 Testing
 
 Run the artifact evaluation script:
 
-bash
+```bash
 python3 tests/test_artifacts.py
-
+```
 
 The script checks the presence of expected output files and basic content requirements.
 
 Note: These are structural checks, not a complete evaluation of AI reasoning or specialist invocation.
 
-🛠️ Technology
-AI Agent Skills
-Markdown
-Codex
-Python 3
-Git and GitHub
-🤝 Contributing
+## 🛠️ Technology
+
+- AI Agent Skills
+- Markdown
+- Codex
+- Python 3
+- Git and GitHub
+
+## 🤝 Contributing
 
 Contributions, suggestions, bug reports, and improvements are welcome.
 
 Feel free to fork the repository and submit a pull request.
 
-📄 License
+## 📄 License
 
 MIT License.
